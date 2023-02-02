@@ -1,0 +1,38 @@
+.blog_wrapper{ 
+    display: flex; 
+    padding: 20px 60px;
+    
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    align-items: center ;
+    justify-content: space-between;
+    text-align: center;
+}
+.blog_left{
+    padding: 5px;
+
+}
+.blog_left > h1{
+    font-family: 'Ubuntu';
+    text-align: center;
+    margin-bottom: 10px;
+}
+.blog_left > p{
+    font-family: 'Montserrat';
+    text-align: left;
+}
+.blog_left > button{
+    background-color: #A0C3D2;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.blog_right > img{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    box-shadow: #A0C3D2 15px 20px;
+}
+
+

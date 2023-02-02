@@ -1,0 +1,57 @@
+.blog{
+    margin: 25px 60px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 100px;
+}
+.header{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+
+}
+.header > img{
+    height: 100px;
+
+}
+.header > span{
+    font-family: 'Roboto Slab';
+
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    gap: 10px;
+}
+
+.content {
+   
+    display: flex;
+    flex-direction: column;
+    position: fixed; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    bottom: 100px;
+
+    
+    gap: 20px;
+}
+    input {
+      padding: 10px;
+      border: 1px solid lightgray;
+    }
+
+.editorContainer {
+    height: 300px;
+    overflow: scroll;
+    border: 1px solid lightgray;}
+    .editor {
+        height: 100%;
+        border: none;
+      }

@@ -1,0 +1,67 @@
+.container{
+    padding: 0;margin: 0;
+    background-color: #A0C3D2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_Wrapper{
+    height: 60%;
+    width: 30%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    gap:20px; 
+    padding: 10px;
+    justify-content: center;
+}
+.form_Wrapper > h1{
+    margin-top: 10px;
+    font-family: 'Poppins';
+    
+}
+.form_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 10px;
+}
+.form_container > input{
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-family: 'Montserrat'
+}
+.form_container > label{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 40px;
+    
+}
+.form_container > label > img{
+    height: 35px;
+}
+.form_container > label > span{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 12px;
+
+}
+.form_container > button{
+    margin-top: 10px;
+    padding: 10px 15px;
+    background:#77defb;
+    border: none;
+    width: 100%;
+    font-weight: bold;
+}
