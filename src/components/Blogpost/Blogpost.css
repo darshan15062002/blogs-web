@@ -6,7 +6,7 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     align-items: center ;
     justify-content: space-between;
-    text-align: center;
+    text-align: left;
 }
 .blog_left{
     padding: 5px;

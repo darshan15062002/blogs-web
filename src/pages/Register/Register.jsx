@@ -51,8 +51,7 @@ const Register = () => {
             photoURL: downloadURL,
           });
 
-          //create empty user chats on firestore
-          await setDoc(doc(db, "userBlog", res.user.uid), {});
+      
           navigate("/");
         } catch (err) {
           console.log(err);
